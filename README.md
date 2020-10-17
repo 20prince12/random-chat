@@ -8,7 +8,7 @@
 <h2> :arrow_forward: Features</h2> 
 :heavy_check_mark: End to End Message encryption.<br>
 :heavy_check_mark: Fast Delivery.<br>
-:heavy_check_mark: Messages are not saved.
+:heavy_check_mark: Messages are not saved or displayed anywhere.
 
 
 <h2> :arrow_forward: Installation Guide</h2>
