@@ -5,9 +5,6 @@
 :small_blue_diamond: <b>/search</b> : To start searching for some random user for chat.<br>
 :small_blue_diamond: <b>/leave</b> : To leave the current chat.
 
-<h2> :arrow_forward: Features</h2> 
-:heavy_check_mark: Fast Delivery.<br>
-:heavy_check_mark: Messages are not saved or displayed anywhere.
 
 
 <h2> :arrow_forward: Installation Guide</h2>
