@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 from telegram_bot import TelegramBot
-from config import TELEGRAM_INIT_WEBHOOK_URL
+from config import TELEGRAM_INIT_WEBHOOK_URL , BASE_TELEGRAM_URL
+import requests
+
 
 app = Flask(__name__)
 TelegramBot.init_webhook(TELEGRAM_INIT_WEBHOOK_URL)
@@ -12,7 +14,8 @@ pairs = {}
 
 @app.route('/')
 def home():
-    return "<h1>hello2</h1>"
+    res = requests.get(BASE_TELEGRAM_URL+'/getme')
+    return res.json()
 
 #webhook recieves forwarded json data from telegram server when someone sends a message to bot.
 @app.route('/webhook', methods=['POST'])
