@@ -10,4 +10,4 @@ MarkupSafe
 requests
 urllib3
 Werkzeug
-gunicorn
+gunicorn==20.0.4
