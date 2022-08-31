@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'strangerchat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0BB15403C6094B1292D5DA950EC1D049 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ECA11DBE09D742A09D11C964A9EF5BFF }}
